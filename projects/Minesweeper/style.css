@@ -1,0 +1,99 @@
+* {
+    /* height width= border, padding */
+    box-sizing: border-box;
+}
+
+body {
+    margin-bottom: 100%;
+    font-family: 'Abril Fatface';
+    background-color: #FEE140;
+    background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);
+}
+
+h1,
+h3 {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+#bar,
+#mybuttons {
+    display: flex;
+    justify-content: center;
+}
+
+#minestoLeft,
+#timer {
+    display: flex;
+    justify-content: center;
+    border: #DB1169;
+    color: white;
+}
+
+#minestoLeft {
+    border: hidden;
+    width: 38px;
+}
+
+#reset {
+    color: white;
+    border: hidden;
+    background-color: #DB1169;
+    margin-left: 52px;
+}
+
+#timer {
+    margin-left: 42px;
+    width: 59px;
+}
+
+#minestoLeft,
+#timer {
+    display: flex;
+    justify-content: center;
+    border: solid;
+}
+
+#boardgame div {
+    font-size: 18px;
+    border: 2px solid black;
+}
+
+#s,
+#l {
+    width: 80px;
+    border: hidden;
+    color: white;
+    font-size: 40x;
+    font-weight: 105;
+    height: 30px;
+    margin-top: 42px;
+    border-radius: 13px;
+    border: black;
+}
+
+#s {
+    background-color: #DB1169;
+}
+
+#l {
+    background-color: #DB1169;
+    margin-left: 58px;
+}
+
+@media only screen and (min-device-width: 370px) and (max-device-width: 810px) and (-webkit-min-device-pixel-ratio: 3) {
+    .main {
+        height: 100vh;
+    }
+
+    .dealer>div {
+        height: 100px;
+        width: 70px;
+    }
+
+    .player>div {
+        height: 100px;
+        width: 70px;
+    }
+}
