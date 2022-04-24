@@ -7,4 +7,11 @@ Here is my developer portfolio site displaying my projects.
 - SASS
 - jQuery
 - Bootstrap
-- JavaScript
+- JavaScript ❤️ 
+
+#### View/open in google chrome browser
+
+# Preview:
+![preview](assets/img/preview.png)
+
+
